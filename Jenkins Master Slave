@@ -1,0 +1,8 @@
+I have configured jenkins Master in windows server and slave as well.Now all the builds are running in slave machine.But after the build is successful
+I can see the workspace only in slave machine where as builds are seen in master server only.
+I wanted to know how to change all the logs and builds to slave machine.
+
+Workaround:
+I have changed "config.xml " file in this line ${item_rootdir}/builds changed to slave machine folder.No builds are shown after running the job.
+Can you please suggest the solution.
+
